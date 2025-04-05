@@ -54,6 +54,32 @@
   background-color: var(--secondary-color-dark);
 }
 
+.btn-login {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Times New Times, serif";
+  font-size: 15px;
+  text-transform: uppercase;
+  Letter-spacing: 1.30;
+  font-weight: 700;
+  color: #fcffff;
+  background: linear-gradient(90deg, rgb(230, 129, 129) 0%, rgb(209, 79, 79) 100%);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 12px 12px 24px rgba(21, 54, 52, 0.64);
+  transition: all .3s ease-in-out 0s;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 20px;
+}
+
+
+.btn-login:hover {
+  transform: scale(1.1);
+}
+
 img {
   width: 100%;
   display: flex;
@@ -289,12 +315,12 @@ nav {
 }
 
 .class__content p {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   color: var(--text-light);
 }
 
 .join__image {
-  margin-top: 4rem;
+  margin-top: 3rem;
   position: relative;
 }
 
