@@ -59,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Times New Times, serif";
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   Letter-spacing: 1.30;
@@ -315,12 +315,12 @@ nav {
 }
 
 .class__content p {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   color: var(--text-light);
 }
 
 .join__image {
-  margin-top: 3rem;
+  margin-top: 4rem;
   position: relative;
 }
 
